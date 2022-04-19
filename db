@@ -1,0 +1,24 @@
+Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario			
+name	            attr	                attr incremento	                attr null
+
+id	                INT	                    auto incremento/unique	        NOTNULL
+marca	            VARCHAR(20)		                                        NOTNULL
+modello	            VARCHAR(20)		                                        NOTNULL
+immatricolazione	YEAR		                                            NOTNULL
+km	                INT		                                                NOTNULL
+
+cilindrata	        SMALLINT		                                        NOTNULL
+alimentazione	    VARCHAR(20)		                                        NOTNULL
+classe	            SMALLINT		                                        NULL
+cavalli	            SMALLINT		                                        NULL
+potenza	            SMALLINT		                                        NULL
+cambio 	            manuale: 0, automatico: 1 SMALLINT		                NOTNULL
+marce	            SMALLINT		                                        NOTNULL
+trazione	        anteriore: 0 , posteriore: 1 SMALLINT		            NULL
+			
+colore	            VARCHAR(20)		                                        NOTNULL
+porte	            SMALLINT		                                        NULL
+posti	            SMALLINT		                                        NULL
+interni	            VARCHAR(20)		                                        NULL
+			
+stato	            TEXT		                                            NULL
